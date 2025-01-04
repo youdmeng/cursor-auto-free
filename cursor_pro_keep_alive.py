@@ -169,7 +169,7 @@ def sign_up_account(browser, tab):
             print(e)
 
     handle_turnstile(tab)
-    wait_time = random.randint(3, 6)
+    wait_time = random.randint(5, 8)
     for i in range(wait_time):
         print(f"等待中... {wait_time-i}秒")
         time.sleep(1)
